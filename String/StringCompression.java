@@ -13,7 +13,7 @@ public class StringCompression {
             newstr.append(str.charAt(i));
             if(count>1){
                 newstr.append(count);
-                count.toString(i);
+                // count.toString(i);
             }
         }
         return newstr;
