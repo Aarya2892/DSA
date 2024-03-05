@@ -12,8 +12,8 @@ class Animal2{
         System.out.println("Animal Constuctor is called");
     }
 }
-class Horse extends Animal2{
-    Horse(){
+class Horse1 extends Animal2{
+    Horse1(){
         super.color = "Browm";
         System.out.println("Horse Constuctor is called");
     }
