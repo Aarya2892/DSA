@@ -12,7 +12,7 @@ public class Inheritance {
     }
 }
 //base class
-class Animal{
+class Animals{
     String color;
     void eat(){
         System.out.println("eats");
@@ -23,7 +23,7 @@ class Animal{
 }
 
 //derived class
-class Fish extends Animal{
+class Fish extends Animals{
     // int fins;
 
     void swim(){
@@ -32,7 +32,7 @@ class Fish extends Animal{
 }
 
 //derived class
-class Mamals extends Animal{ 
+class Mamals extends Animals{ 
     // int legs;
 
     void walk(){
@@ -43,7 +43,7 @@ class Dog extends Mamals{
     String breed;
 }
 
-class Bird extends Animal{
+class Bird extends Animals{
     void fly(){
         System.out.println("Birds can fly");
     }

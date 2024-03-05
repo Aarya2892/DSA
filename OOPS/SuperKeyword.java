@@ -6,13 +6,13 @@ public class SuperKeyword {
        System.out.println(h.color);
     }
 }
-class Animal{
+class Animal2{
     String color;
-    Animal() {
+    Animal2() {
         System.out.println("Animal Constuctor is called");
     }
 }
-class Horse extends Animal{
+class Horse extends Animal2{
     Horse(){
         super.color = "Browm";
         System.out.println("Horse Constuctor is called");

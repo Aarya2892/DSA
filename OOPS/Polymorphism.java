@@ -28,13 +28,13 @@ class Calculator{
 }
 
 //Method Overriding
-class Animal{
+class Animal1{
     void eat(){
         System.out.println("Animals can its anything");
     }
 }
 
-class Deer extends Animal{
+class Deer extends Animal1{
     void eat(){
         System.out.println("Deers its grass only");
     }
